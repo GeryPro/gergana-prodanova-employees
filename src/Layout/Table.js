@@ -61,7 +61,7 @@ const Table = ({ filteredEmployeeData }) => {
 		<section className={classes['table-section']}>
 			{!projectsToDisplay && (
 				<p className={classes['no-projects']}>
-					Sorry, there are no shared projects,that can be displayed.
+					Sorry, there are no shared projects, that can be displayed.
 				</p>
 			)}
 			{projectsToDisplay && (
