@@ -1,0 +1,33 @@
+.table-section {
+	text-align: center;
+	max-width: 45rem;
+	width: 90%;
+	margin: auto;
+	margin-top: 10rem;
+	position: relative;
+	background-color: #8cc5c5;
+	color: white;
+	border-radius: 14px;
+	padding: 1rem;
+	box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+}
+
+.table {
+	width: 100%;
+}
+
+.table-header {
+	border-bottom: solid 3px #fff;
+	font-size: 1.1rem;
+	padding-bottom: 0.5rem;
+}
+
+.table-cell {
+	border-bottom: solid 1px #fff;
+	font-weight: bold;
+}
+
+.no-projects {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
