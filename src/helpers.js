@@ -67,5 +67,7 @@ export const processInitialData = (initialDataSet) => {
 		filteredSharedProjects.push(sharedProject);
 	}
 
-	return filteredSharedProjects;
+	return filteredSharedProjects.sort((a, b) =>
+		a.daysWorked < b.daysWorked ? -1 : 1
+	)[0];
 };

@@ -15,6 +15,7 @@ function App() {
 	useEffect(() => {
 		if (initialData) {
 			const processedData = processInitialData(initialData);
+			console.log(processedData);
 
 			setFilteredData((filteredData) => filteredData.concat(processedData));
 		}
